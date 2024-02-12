@@ -1,0 +1,14 @@
+<suite name = "Smoke Test">
+	<test name = "UI Functionality">
+		<groups>
+			<run>
+				<include name = "Japan"></include>
+				<include name = "World"></include>
+				
+			</run>
+		</groups>
+		<classes>
+			<class name = "com.noorteck.testnglecture.GroupingTest"></class>
+		</classes>
+	</test>
+</suite>
