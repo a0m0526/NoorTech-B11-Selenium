@@ -9,6 +9,7 @@ public class Exercise1 extends Hooks {
 
 	public static void main(String[] args) throws InterruptedException {
 
+		
 		setUp();
 
 		driver.get("https://ntkhr.noortecktraining.com/web/index.php/auth/login");
